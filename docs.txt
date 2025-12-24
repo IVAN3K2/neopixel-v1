@@ -1,0 +1,184 @@
+npm create vite@latest neopixel-portfolio
+npm install
+npm install -D tailwindcss@3.4.10 postcss autoprefixer
+npx tailwindcss init -p
+
+Un **portfolio** doit surtout montrer **qui tu es**, **ce que tu sais faire** et **ce que tu peux apporter**.
+Voici la structure idéale (surtout pour un portfolio **dev / créatif / digital** comme NEOpixel 👇).
+
+---
+
+## 1. Page d’accueil (Hero section)
+
+🎯 Objectif : accrocher en 5 secondes
+
+* Ton **nom / marque** (ex : *NEOpixel*)
+* Une **phrase claire** :
+
+  > *“Nous concevons des sites web modernes, rapides et sur mesure.”*
+* 1 ou 2 **CTA** :
+
+  * Voir mes projets
+  * Me contacter
+* Un visuel ou animation légère (pas trop lourde)
+
+---
+
+## 2. À propos (About)
+
+🎯 Objectif : créer la confiance
+
+* Qui tu es / qui est NEOpixel
+* Ton rôle (ex : *Développeur full stack*)
+* Ta vision / ta philosophie
+* Ce qui te différencie des autres
+
+👉 Pas un CV, mais une **histoire courte et humaine**
+
+---
+
+## 3. Services (très important)
+
+🎯 Objectif : montrer **ce que tu vends**
+
+Exemples :
+
+* 🌐 Création de sites web (vitrine, e-commerce)
+* ⚙️ Applications web (React, API, dashboard)
+* 🎨 UI/UX design
+* 🚀 Optimisation & performance
+* 🛠 Maintenance & support
+
+Chaque service doit avoir :
+
+* Un **titre clair**
+* Une **courte description**
+* Ce que le client gagne (bénéfices, pas juste techno)
+
+👉 C’est exactement ce que tu faisais avec `ServiceCard.jsx` 😉
+
+---
+
+## 4. Réalisations / Projets
+
+🎯 Objectif : prouver que tu sais faire
+
+Même si les projets sont **fictifs**, c’est OK 👍
+
+Pour chaque projet :
+
+* Nom du projet
+* Problème du client
+* Solution apportée
+* Stack utilisée (React, Tailwind, etc.)
+* Images / mockups
+* Lien (si possible)
+
+👉 Qualité > quantité (3–6 projets max)
+
+---
+
+## 5. Compétences / Stack
+
+🎯 Objectif : rassurer techniquement
+
+* Langages : HTML, CSS, JS, PHP, etc.
+* Frameworks : React, Tailwind, Node…
+* Outils : Git, Figma, Docker…
+* Soft skills (communication, rigueur…)
+
+⚠️ Évite les barres de pourcentage bidon.
+
+---
+
+## 6. Témoignages (optionnel mais puissant)
+
+🎯 Objectif : crédibilité
+
+* Avis clients (même fictifs mais réalistes)
+* Nom + rôle + photo (ou avatar)
+
+---
+
+## 7. Contact
+
+🎯 Objectif : conversion
+
+* Formulaire simple
+* Email
+* WhatsApp / LinkedIn / GitHub
+* Localisation (optionnel)
+
+👉 Un bouton **“Démarrer un projet”** fonctionne très bien
+
+---
+
+## 8. Footer
+
+* Rappels des liens
+* Réseaux sociaux
+* © année + nom
+
+---
+
+## En résumé (checklist)
+
+Un bon portfolio doit être :
+✅ Clair
+✅ Moderne
+✅ Responsive
+✅ Orienté client
+✅ Axé sur les services + preuves
+
+---
+
+Si tu veux, je peux :
+
+* te proposer **une structure exacte de pages pour NEOpixel**
+* écrire **les textes marketing**
+* ou t’aider à **designer les composants React/Tailwind**
+
+👉 Dis-moi ce que tu veux faire ensuite 💡
+
+
+Hero
+→ Qui est NEOpixel + promesse claire
+
+Services
+→ Ce que vous faites (avec icônes)
+
+Pourquoi nous choisir ?
+→ Différenciation (valeur ajoutée)
+
+Projets / Réalisations
+→ Preuve (même fictive)
+
+Process de travail
+→ Comment vous travaillez (1-2-3-4)
+
+Témoignages (optionnel)
+
+Call To Action (CTA)
+→ “Démarrer un projet”
+
+Contact
+→ Formulaire + WhatsApp
+
+Footer
+
+Animations Framer Motion
+
+🖼️ Image animée (floating)
+
+🎯 Badge “Trusted by brands”
+
+🔥 Typographie plus agressive
+
+🌙 Gradient animé orange
+
+👉 Prochaine étape ?
+
+1️⃣ Animation du Hero
+2️⃣ Section Why Choose NEOpixel
+3️⃣ Section Process de travail
+4️⃣ Footer premium

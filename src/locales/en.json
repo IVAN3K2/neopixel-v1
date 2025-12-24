@@ -1,0 +1,131 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "whyChoose": "Why Choose Us",
+    "process": "Process",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title1": "We create",
+    "highlight": "digital experiences",
+    "title2": "that inspire and perform",
+    "subtitle": "NEOpixel is a creative agency specialized in web & mobile development, visual design and digital marketing. We transform your ideas into high-performance and innovative digital solutions.",
+    "btnServices": "Our Services",
+    "btnProjects": "View Projects",
+    "trusted": "Trusted by brands",
+    "imageAlt": "NEOpixel Digital Agency"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Creative and innovative digital solutions tailored to your needs.",
+    "items": {
+      "webDev": {
+        "title": "Web & Mobile Development",
+        "description": "High-performance and modern web and mobile applications."
+      },
+      "video": {
+        "title": "Video Production & Motion Design",
+        "description": "Professional video editing, motion graphics and impactful visual content."
+      },
+      "design": {
+        "title": "Brand Identity & Graphic Design",
+        "description": "Logo, flyer and unique visual identity creation."
+      },
+      "photo": {
+        "title": "Photo Editing & Visual Enhancement",
+        "description": "Advanced photo retouching for professional and attractive results."
+      },
+      "marketing": {
+        "title": "Digital Marketing & Growth Strategy",
+        "description": "Digital strategies to increase brand visibility and growth."
+      }
+    }
+  }, 
+
+  "whyChoose": {
+    "title": "Why Choose Us?",
+    "subtitle": "Our strengths for unique and high-performing projects.",
+    "items": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "Creative and modern solutions that set you apart from the competition."
+      },
+      "performance": {
+        "title": "Performance",
+        "description": "Optimization and speed for maximum impact on your projects."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "Professional support and transparency at every step."
+      }
+    }
+  }, 
+
+   "workProcess": {
+    "title": "Work Process",
+    "subtitle": "Discover how we turn your ideas into high-performing digital solutions.",
+    "steps": {
+      "idea": {
+        "title": "1. Idea & Brief",
+        "description": "We start by understanding your needs and defining your project objectives."
+      },
+      "design": {
+        "title": "2. Design & Prototyping",
+        "description": "Our designers and developers create high-performance and modern mockups and prototypes."
+      },
+      "development": {
+        "title": "3. Development & Review",
+        "description": "We develop the solution respecting your feedback and ensuring quality at every step."
+      },
+      "delivery": {
+        "title": "4. Delivery & Support",
+        "description": "We deploy the project and continue to support you to ensure its success."
+      }
+    }
+  },
+
+  "projects": {
+    "title": "Our Creations",
+    "subtitle": "Discover our most remarkable digital projects.",
+    "items": {
+      "neoSchool": {
+        "name": "NeoSchool",
+        "service": "Web & Mobile Development",
+        "description": "Modern educational platform for schools and students."
+      },
+      "pixelAds": {
+        "name": "PixelAds",
+        "service": "Digital Marketing",
+        "description": "Digital campaign to increase brand visibility."
+      },
+      "neoBrand": {
+        "name": "NeoBrand",
+        "service": "Brand Identity",
+        "description": "Complete visual identity creation for a startup."
+      }
+    }
+  }, 
+
+  "cta": {
+    "title": "Ready to bring your project to life?",
+    "subtitle": "Contact us now and let’s turn your ideas into powerful and creative digital solutions.",
+    "button": "Start a project"
+  },
+
+  "footer": {
+  "description": "Creative agency specialized in web & mobile development, visual design and digital marketing.",
+  "quickLinks": "Quick Links",
+  "links": {
+    "services": "Services",
+    "projects": "Projects",
+    "process": "Work Process",
+    "contact": "Contact"
+  },
+  "contactTitle": "Contact & Social",
+  "emailLabel": "Email",
+  "rights": "All rights reserved."
+}
+
+}

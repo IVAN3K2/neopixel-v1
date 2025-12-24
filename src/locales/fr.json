@@ -1,0 +1,131 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "services": "Services",
+    "whyChoose": "Pourquoi nous choisir",
+    "process": "Process",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title1": "Nous créons des",
+    "highlight": "expériences digitales",
+    "title2": "qui inspirent et performent",
+    "subtitle": "NEOpixel est une agence créative spécialisée en développement web & mobile, design visuel et marketing digital. Nous transformons vos idées en solutions digitales performantes et innovantes.",
+    "btnServices": "Nos Services",
+    "btnProjects": "Voir les Projets",
+    "trusted": "Trusted by brands",
+    "imageAlt": "Agence Digitale NEOpixel"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des solutions digitales créatives et innovantes adaptées à vos besoins.",
+    "items": {
+      "webDev": {
+        "title": "Développement Web & Mobile",
+        "description": "Applications web et mobiles performantes et modernes."
+      },
+      "video": {
+        "title": "Production Vidéo & Motion Design",
+        "description": "Montage vidéo professionnel, animations et contenus visuels impactants."
+      },
+      "design": {
+        "title": "Identité de Marque & Design Graphique",
+        "description": "Création de logos, flyers et identités visuelles uniques."
+      },
+      "photo": {
+        "title": "Retouche Photo & Valorisation Visuelle",
+        "description": "Retouche photo avancée pour un rendu professionnel et attractif."
+      },
+      "marketing": {
+        "title": "Marketing Digital & Stratégie de Croissance",
+        "description": "Stratégies digitales pour accroître la visibilité et la croissance des marques."
+      }
+    }
+  }, 
+
+  "whyChoose": {
+    "title": "Pourquoi nous choisir ?",
+    "subtitle": "Nos atouts pour des projets uniques et performants.",
+    "items": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "Des solutions créatives et modernes qui vous démarquent de la concurrence."
+      },
+      "performance": {
+        "title": "Performance",
+        "description": "Optimisation et rapidité pour un impact maximal sur vos projets."
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "description": "Accompagnement professionnel et transparence à chaque étape."
+      }
+    }
+  },
+
+  "workProcess": {
+    "title": "Process de travail",
+    "subtitle": "Découvrez comment nous transformons vos idées en solutions digitales performantes.",
+    "steps": {
+      "idea": {
+        "title": "1. Idée & Brief",
+        "description": "Nous commençons par comprendre vos besoins et définir les objectifs de votre projet."
+      },
+      "design": {
+        "title": "2. Conception & Design",
+        "description": "Nos designers et développeurs créent des maquettes et prototypes performants et modernes."
+      },
+      "development": {
+        "title": "3. Développement & Révision",
+        "description": "Nous développons la solution en respectant vos retours et en assurant la qualité à chaque étape."
+      },
+      "delivery": {
+        "title": "4. Livraison & Suivi",
+        "description": "Nous déployons le projet et continuons à vous accompagner pour garantir son succès."
+      }
+    }
+  },
+
+  "projects": {
+    "title": "Nos Créations",
+    "subtitle": "Découvrez nos réalisations digitales les plus marquantes.",
+    "items": {
+      "neoSchool": {
+        "name": "NeoSchool",
+        "service": "Développement Web & Mobile",
+        "description": "Plateforme éducative moderne pour écoles et étudiants."
+      },
+      "pixelAds": {
+        "name": "PixelAds",
+        "service": "Marketing Digital",
+        "description": "Campagne digitale pour augmenter la visibilité d'une marque."
+      },
+      "neoBrand": {
+        "name": "NeoBrand",
+        "service": "Identité de Marque",
+        "description": "Création complète d’identité visuelle pour startup."
+      }
+    }
+  },
+
+  "cta": {
+    "title": "Prêt à donner vie à votre projet ?",
+    "subtitle": "Contactez-nous dès maintenant et transformons vos idées en solutions digitales performantes et créatives.",
+    "button": "Démarrer un projet"
+  },
+
+  "footer": {
+  "description": "Agence créative spécialisée en développement web & mobile, design visuel et marketing digital.",
+  "quickLinks": "Liens rapides",
+  "links": {
+    "services": "Services",
+    "projects": "Projets",
+    "process": "Process de travail",
+    "contact": "Contact"
+  },
+  "contactTitle": "Contact & Réseaux",
+  "emailLabel": "Email",
+  "rights": "Tous droits réservés."
+}
+
+}
