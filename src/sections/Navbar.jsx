@@ -31,7 +31,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <a href="#hero" className="text-2xl font-bold text-orange-500 hover:text-orange-400 transition">
-          NEOpixel
+          NEOpixels
         </a>
 
         {/* Desktop menu */}
