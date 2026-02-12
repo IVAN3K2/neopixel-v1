@@ -6,7 +6,7 @@ Professional landing page designed to present a startup’s services and convert
 Create a clean, fast and modern website to showcase services and build trust.
 
 ## Technologies
-- React.js
+- React
 - Tailwind CSS
 - Responsive Design
 
