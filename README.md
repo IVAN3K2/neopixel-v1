@@ -5,7 +5,7 @@ Professional landing page designed to present a startup’s services and convert
 ## Project Goal
 Create a clean, fast and modern website to showcase services and build trust.
 
-## Technologies
+## Technologie
 - React
 - Tailwind CSS 
 - Responsive Design
