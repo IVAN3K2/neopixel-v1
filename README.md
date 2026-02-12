@@ -7,7 +7,7 @@ Create a clean, fast and modern website to showcase services and build trust.
 
 ## Technologies
 - React
-- Tailwind CSS
+- Tailwind CSS 
 - Responsive Design
 
 ## Features
