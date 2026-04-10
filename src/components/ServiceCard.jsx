@@ -1,103 +1,17 @@
-// src/components/About.jsx
 import { motion } from "framer-motion";
-import { FaGlobe, FaHandshake, FaStar } from "react-icons/fa";
-import { useTranslation } from "react-i18next";
 
-/**
- * Section About pour PI TRAVEL
- * Affiche 3 cartes "Pourquoi choisir PI TRAVEL"
- */
-const About = () => {
-  const { t } = useTranslation();
-
-  const cards = [
-    {
-      icon: <FaGlobe size={30} className="text-secondary" />,
-      title: t("about.internationalMobility.title"),
-      description: t("about.internationalMobility.description"),
-    },
-    {
-      icon: <FaHandshake size={30} className="text-secondary" />,
-      title: t("about.trustedPartner.title"),
-      description: t("about.trustedPartner.description"),
-    },
-    {
-      icon: <FaStar size={30} className="text-secondary" />,
-      title: t("about.excellenceGuidance.title"),
-      description: t("about.excellenceGuidance.description"),
-    },
-  ];
-
+export default function ServiceCard({ title, description, icon: Icon }) {
   return (
-    <section
-      id="about"
-      className="max-w-7xl mx-auto px-6 py-16"
-      aria-label="Pourquoi choisir PI TRAVEL"
-    >
-      {/* ================= Titre de la section ================= */}
-      <motion.h2
-        className="text-3xl md:text-4xl font-bold text-primary mb-4 text-center"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false, amount: 0.3 }}
-        transition={{ duration: 0.6 }}
+    <div className="bg-neutral-900 rounded-2xl p-8 text-center border border-neutral-800 hover:border-orange-500 transition h-full flex flex-col">
+      <motion.div
+        className="text-orange-500 text-4xl mb-4 mx-auto flex justify-center"
+        animate={{ y: [0, -8, 0] }}
+        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
-        {t("about.title")}
-      </motion.h2>
-
-      {/* ================= Petite description ================= */}
-      <motion.p
-        className="text-primary/80 text-center mb-12 max-w-3xl mx-auto"
-        initial={{ opacity: 0, y: 10 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false, amount: 0.3 }}
-        transition={{ duration: 0.6, delay: 0.1 }}
-      >
-        {t("about.description")}
-      </motion.p>
-
-      {/* ================= Cartes ================= */}
-      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-3 mt-8">
-        {cards.map((card, index) => (
-          <motion.div
-            key={index}
-            className="
-              bg-light rounded-xl p-6 shadow-lg
-              flex flex-col items-center text-center
-              hover:shadow-2xl transition-transform
-              min-h-[300px]   /* même hauteur pour uniformité */
-            "
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false, amount: 0.3 }}
-            transition={{
-              duration: 0.6,
-              delay: index * 0.2,
-              type: "spring",
-              stiffness: 100,
-            }}
-          >
-            {/* Icône flottante */}
-            <motion.div
-              className="mb-4"
-              animate={{ y: [0, -8, 0] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-            >
-              {card.icon}
-            </motion.div>
-
-            {/* Titre */}
-            <h3 className="text-xl font-semibold text-primary mb-2">
-              {card.title}
-            </h3>
-
-            {/* Description */}
-            <p className="text-primary/80">{card.description}</p>
-          </motion.div>
-        ))}
-      </div>
-    </section>
+        {Icon ? <Icon /> : null}
+      </motion.div>
+      <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
+      <p className="text-gray-400 text-sm flex-1">{description}</p>
+    </div>
   );
-};
-
-export default About;
+}
